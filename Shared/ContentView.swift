@@ -12,24 +12,41 @@ struct ContentView: View {
     var programmingBooks: [ProgrammingBook] = []
     
     var body: some View {
+        
         NavigationView {
+      
             List(programmingBooks) { programmingBook in
-                
-                VStack(alignment: .leading) {
-                    NavigationLink {
-                        ContentView()
-                    } label: {
-                         Text("對的時間點")
+                    VStack(alignment: .leading) {
+                        NavigationLink {
+                            DetailView(book: programmingBook)
+                        } label: {}
+                        
+                        Text(programmingBook.name)
+                            .font(.title)
+                        Text(programmingBook.publisher)
+                            .font(.subheadline)
+                            .foregroundColor(Color.gray)
+                        
                     }
-                    Text(programmingBook.name)
-                        .font(.title)
-                    Text(programmingBook.publisher)
-                        .font(.subheadline)
-                        .foregroundColor(Color.gray)
-                }
             }
+            
         }
-     
+    }
+}
+
+struct DetailView: View {
+    var book: ProgrammingBook
+    
+    var body: some View {
+        
+        Text(book.content)
+            .padding()
+    }
+}
+
+struct DetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        DetailView(book: programmingBooks[0])
     }
 }
 
