@@ -11,7 +11,7 @@ import SwiftUI
 struct MyResumeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(programmingBooks: programmingBooks)
+            ContentView(resume: resume)
         }
     }
 }

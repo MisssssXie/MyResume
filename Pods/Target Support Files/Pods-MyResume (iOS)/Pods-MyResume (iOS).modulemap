@@ -1,0 +1,6 @@
+framework module Pods_MyResume__iOS_ {
+  umbrella header "Pods-MyResume (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

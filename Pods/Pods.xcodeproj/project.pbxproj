@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216F0E2A0B59314E48519C5A0637000E /* Pods-MyResume (macOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7B1169E71CE6E70D4AA32956A14AB5 /* Pods-MyResume (macOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3967846E76FC8351D2AB4BF123ECF5F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */; };
+		91919443A65FFF0916316E935FCBD039 /* Pods-MyResume (macOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC4D22C1DE3E40B51A619A514B9C55 /* Pods-MyResume (macOS)-dummy.m */; };
+		DFF48E49472B322E3286A5876770D06C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3261E5A5395F45780622405F504B2804 /* Foundation.framework */; };
+		F0FC5E32CD7D70A4E0991190A1995C5E /* Pods-MyResume (iOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92464F888584E3B79C965DDA0E4145E0 /* Pods-MyResume (iOS)-dummy.m */; };
+		F375B1A258718C5ADE742184D471B57E /* Pods-MyResume (iOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ABF6BAEED24526C25857C7C41A2E00 /* Pods-MyResume (iOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005F4ED87CBF6039C618ADB937F912CE /* Pods-MyResume (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyResume (iOS).modulemap"; sourceTree = "<group>"; };
+		0F7B1169E71CE6E70D4AA32956A14AB5 /* Pods-MyResume (macOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyResume (macOS)-umbrella.h"; sourceTree = "<group>"; };
+		27ABF6BAEED24526C25857C7C41A2E00 /* Pods-MyResume (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyResume (iOS)-umbrella.h"; sourceTree = "<group>"; };
+		3261E5A5395F45780622405F504B2804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3449018395A4CE0E4C012363C623D734 /* Pods-MyResume (macOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyResume (macOS).modulemap"; sourceTree = "<group>"; };
+		35DC4D22C1DE3E40B51A619A514B9C55 /* Pods-MyResume (macOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyResume (macOS)-dummy.m"; sourceTree = "<group>"; };
+		395486E3A9B5E3BD968E03C56B96E807 /* Pods-MyResume (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyResume (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		41DA698918D1A5F2F44D873A20899478 /* Pods-MyResume (macOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyResume (macOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CCBCA92D350251A266D597A0F63BC54 /* Pods-MyResume (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyResume (iOS)-Info.plist"; sourceTree = "<group>"; };
+		4EB0005197A8988BEB1EBCD0F42002C9 /* Pods-MyResume (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyResume (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		53FE5069FD84081159AC7B84084548EC /* Pods-MyResume (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyResume (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		57E393B1D2C96C7C1FF49708D2BF2B7F /* Pods-MyResume (macOS) */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyResume (macOS)"; path = Pods_MyResume__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5EB6F8F371EC85E4F2A5A1EA4A0CE9D4 /* Pods-MyResume (macOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyResume (macOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		689689D6B9A273FFA0B58B0BE75EFC1F /* Pods-MyResume (macOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyResume (macOS)-Info.plist"; sourceTree = "<group>"; };
+		85A886F7D2A0D3EC1A42990F16442224 /* Pods-MyResume (iOS) */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyResume (iOS)"; path = Pods_MyResume__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92464F888584E3B79C965DDA0E4145E0 /* Pods-MyResume (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyResume (iOS)-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3133C12D5171994B4E6AC83444B513B /* Pods-MyResume (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyResume (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		CF01ADDE639B14F978715EB57CE2259C /* Pods-MyResume (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyResume (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D645169623B47BD6DCF43B202E620E82 /* Pods-MyResume (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyResume (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15AE5F58AE08EBC1260FC627B5F85943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3967846E76FC8351D2AB4BF123ECF5F0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C280271ED756DAB39535F7A5378184A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF48E49472B322E3286A5876770D06C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3687A10CE34E57BDC1D1EA44A1CED22D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E20CD8CE02D65CD8CC9E933ADB9F5929 /* Pods-MyResume (iOS) */,
+				E486DEBA700E1DD0D9C24653E145DA5A /* Pods-MyResume (macOS) */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		36AAC3C5DC0C21FAC6617ED3653997B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A886F7D2A0D3EC1A42990F16442224 /* Pods-MyResume (iOS) */,
+				57E393B1D2C96C7C1FF49708D2BF2B7F /* Pods-MyResume (macOS) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C052635D3E21350AC08C5F316759F6 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DABCD2AA1C1DFCD4E2578CE87BDFD93F /* iOS */,
+				41C052635D3E21350AC08C5F316759F6 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */,
+				36AAC3C5DC0C21FAC6617ED3653997B0 /* Products */,
+				3687A10CE34E57BDC1D1EA44A1CED22D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DABCD2AA1C1DFCD4E2578CE87BDFD93F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3261E5A5395F45780622405F504B2804 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E20CD8CE02D65CD8CC9E933ADB9F5929 /* Pods-MyResume (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				005F4ED87CBF6039C618ADB937F912CE /* Pods-MyResume (iOS).modulemap */,
+				CF01ADDE639B14F978715EB57CE2259C /* Pods-MyResume (iOS)-acknowledgements.markdown */,
+				D645169623B47BD6DCF43B202E620E82 /* Pods-MyResume (iOS)-acknowledgements.plist */,
+				92464F888584E3B79C965DDA0E4145E0 /* Pods-MyResume (iOS)-dummy.m */,
+				4CCBCA92D350251A266D597A0F63BC54 /* Pods-MyResume (iOS)-Info.plist */,
+				27ABF6BAEED24526C25857C7C41A2E00 /* Pods-MyResume (iOS)-umbrella.h */,
+				53FE5069FD84081159AC7B84084548EC /* Pods-MyResume (iOS).debug.xcconfig */,
+				4EB0005197A8988BEB1EBCD0F42002C9 /* Pods-MyResume (iOS).release.xcconfig */,
+			);
+			name = "Pods-MyResume (iOS)";
+			path = "Target Support Files/Pods-MyResume (iOS)";
+			sourceTree = "<group>";
+		};
+		E486DEBA700E1DD0D9C24653E145DA5A /* Pods-MyResume (macOS) */ = {
+			isa = PBXGroup;
+			children = (
+				3449018395A4CE0E4C012363C623D734 /* Pods-MyResume (macOS).modulemap */,
+				41DA698918D1A5F2F44D873A20899478 /* Pods-MyResume (macOS)-acknowledgements.markdown */,
+				5EB6F8F371EC85E4F2A5A1EA4A0CE9D4 /* Pods-MyResume (macOS)-acknowledgements.plist */,
+				35DC4D22C1DE3E40B51A619A514B9C55 /* Pods-MyResume (macOS)-dummy.m */,
+				689689D6B9A273FFA0B58B0BE75EFC1F /* Pods-MyResume (macOS)-Info.plist */,
+				0F7B1169E71CE6E70D4AA32956A14AB5 /* Pods-MyResume (macOS)-umbrella.h */,
+				C3133C12D5171994B4E6AC83444B513B /* Pods-MyResume (macOS).debug.xcconfig */,
+				395486E3A9B5E3BD968E03C56B96E807 /* Pods-MyResume (macOS).release.xcconfig */,
+			);
+			name = "Pods-MyResume (macOS)";
+			path = "Target Support Files/Pods-MyResume (macOS)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		549814D05CC86079B4A038D17D0AD42E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F375B1A258718C5ADE742184D471B57E /* Pods-MyResume (iOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59827576ACA2F216B907B433AF1D196A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216F0E2A0B59314E48519C5A0637000E /* Pods-MyResume (macOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D6FA8313F12596C682F22CEB21C31A0 /* Pods-MyResume (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B05707B14465BC737141AD2A07DD207 /* Build configuration list for PBXNativeTarget "Pods-MyResume (macOS)" */;
+			buildPhases = (
+				59827576ACA2F216B907B433AF1D196A /* Headers */,
+				520E975D17EA5F38875A6634E9E3615C /* Sources */,
+				15AE5F58AE08EBC1260FC627B5F85943 /* Frameworks */,
+				9CD0549E49EF87D9F85080BEEDB4ED43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyResume (macOS)";
+			productName = Pods_MyResume__macOS_;
+			productReference = 57E393B1D2C96C7C1FF49708D2BF2B7F /* Pods-MyResume (macOS) */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AD953D39A6E8AF469D642EA46D6CEEE /* Pods-MyResume (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B097E1FDD4F5B89EF3236D08CD87BB54 /* Build configuration list for PBXNativeTarget "Pods-MyResume (iOS)" */;
+			buildPhases = (
+				549814D05CC86079B4A038D17D0AD42E /* Headers */,
+				1CD87FD1CC9FD6A15856B1C1C447E6BF /* Sources */,
+				2C280271ED756DAB39535F7A5378184A /* Frameworks */,
+				13F75F2DE4C6189C8D283C0BA0F6C29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyResume (iOS)";
+			productName = Pods_MyResume__iOS_;
+			productReference = 85A886F7D2A0D3EC1A42990F16442224 /* Pods-MyResume (iOS) */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 36AAC3C5DC0C21FAC6617ED3653997B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AD953D39A6E8AF469D642EA46D6CEEE /* Pods-MyResume (iOS) */,
+				6D6FA8313F12596C682F22CEB21C31A0 /* Pods-MyResume (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F75F2DE4C6189C8D283C0BA0F6C29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD0549E49EF87D9F85080BEEDB4ED43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CD87FD1CC9FD6A15856B1C1C447E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FC5E32CD7D70A4E0991190A1995C5E /* Pods-MyResume (iOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520E975D17EA5F38875A6634E9E3615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91919443A65FFF0916316E935FCBD039 /* Pods-MyResume (macOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20BE9C31691E134BE28A77BBA926E825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F389BE858238552D70EA0C2F13164EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FE5069FD84081159AC7B84084548EC /* Pods-MyResume (iOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyResume (iOS)/Pods-MyResume (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyResume (iOS)/Pods-MyResume (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BDBEF31955D898DB42272D0DB5F20D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3133C12D5171994B4E6AC83444B513B /* Pods-MyResume (macOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyResume (macOS)/Pods-MyResume (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyResume (macOS)/Pods-MyResume (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD1FFD92EE48C68B4C8D7B5AA592123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB0005197A8988BEB1EBCD0F42002C9 /* Pods-MyResume (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyResume (iOS)/Pods-MyResume (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyResume (iOS)/Pods-MyResume (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E52BB75456E48892A47C732346AFBE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395486E3A9B5E3BD968E03C56B96E807 /* Pods-MyResume (macOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyResume (macOS)/Pods-MyResume (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyResume (macOS)/Pods-MyResume (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBD20361515CB8DBCE1703AB26895396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B05707B14465BC737141AD2A07DD207 /* Build configuration list for PBXNativeTarget "Pods-MyResume (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDBEF31955D898DB42272D0DB5F20D8 /* Debug */,
+				E52BB75456E48892A47C732346AFBE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BE9C31691E134BE28A77BBA926E825 /* Debug */,
+				FBD20361515CB8DBCE1703AB26895396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B097E1FDD4F5B89EF3236D08CD87BB54 /* Build configuration list for PBXNativeTarget "Pods-MyResume (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F389BE858238552D70EA0C2F13164EA /* Debug */,
+				DFD1FFD92EE48C68B4C8D7B5AA592123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194A64FD0E3778016B463560 /* Pods_MyResume__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661A4C1D267F04AEE215C2FC /* Pods_MyResume__macOS_.framework */; };
+		279F6EE1123BF23E77E295D7 /* Pods_MyResume__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12650FAEE5102F96180EE7B1 /* Pods_MyResume__iOS_.framework */; };
+		3A089C3727F9A1570017D118 /* ResumeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A089C3627F9A1570017D118 /* ResumeItem.swift */; };
+		3A089C3827F9A1570017D118 /* ResumeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A089C3627F9A1570017D118 /* ResumeItem.swift */; };
+		3A089C3927F9A1570017D118 /* ResumeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A089C3627F9A1570017D118 /* ResumeItem.swift */; };
+		3A089C3A27F9A1570017D118 /* ResumeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A089C3627F9A1570017D118 /* ResumeItem.swift */; };
+		3A089C3C27F9A1710017D118 /* MockResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A089C3B27F9A1710017D118 /* MockResume.swift */; };
+		3A089C3D27F9A1710017D118 /* MockResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A089C3B27F9A1710017D118 /* MockResume.swift */; };
+		3A089C3E27F9A1710017D118 /* MockResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A089C3B27F9A1710017D118 /* MockResume.swift */; };
+		3A089C3F27F9A1710017D118 /* MockResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A089C3B27F9A1710017D118 /* MockResume.swift */; };
 		913754E627F6CCA3009EDDFA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913754E527F6CCA3009EDDFA /* Tests_iOS.swift */; };
 		913754E827F6CCA3009EDDFA /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913754E727F6CCA3009EDDFA /* Tests_iOSLaunchTests.swift */; };
 		913754F227F6CCA3009EDDFA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913754F127F6CCA3009EDDFA /* Tests_macOS.swift */; };
@@ -37,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069BFDF1FE4830304C34F0A8 /* Pods-MyResume (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyResume (macOS).debug.xcconfig"; path = "Target Support Files/Pods-MyResume (macOS)/Pods-MyResume (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		12650FAEE5102F96180EE7B1 /* Pods_MyResume__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyResume__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A089C3627F9A1570017D118 /* ResumeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeItem.swift; sourceTree = "<group>"; };
+		3A089C3B27F9A1710017D118 /* MockResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockResume.swift; sourceTree = "<group>"; };
+		661A4C1D267F04AEE215C2FC /* Pods_MyResume__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyResume__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		867FAF20B0FEEEFF7B188DF9 /* Pods-MyResume (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyResume (iOS).release.xcconfig"; path = "Target Support Files/Pods-MyResume (iOS)/Pods-MyResume (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		913754CD27F6CCA0009EDDFA /* MyResumeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResumeApp.swift; sourceTree = "<group>"; };
 		913754CE27F6CCA0009EDDFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		913754CF27F6CCA2009EDDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +66,8 @@
 		913754F127F6CCA3009EDDFA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		913754F327F6CCA3009EDDFA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		9137550927F6CD70009EDDFA /* MyResume (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MyResume (iOS).entitlements"; sourceTree = "<group>"; };
+		B7BBBB5851C3E3AE7D11F756 /* Pods-MyResume (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyResume (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MyResume (iOS)/Pods-MyResume (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F2025CC7A13EACBE8238B88B /* Pods-MyResume (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyResume (macOS).release.xcconfig"; path = "Target Support Files/Pods-MyResume (macOS)/Pods-MyResume (macOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279F6EE1123BF23E77E295D7 /* Pods_MyResume__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194A64FD0E3778016B463560 /* Pods_MyResume__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +104,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A089C3527F99EF20017D118 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A089C3627F9A1570017D118 /* ResumeItem.swift */,
+				3A089C3B27F9A1710017D118 /* MockResume.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E65AB9BE5D138B6AB4B499C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12650FAEE5102F96180EE7B1 /* Pods_MyResume__iOS_.framework */,
+				661A4C1D267F04AEE215C2FC /* Pods_MyResume__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE8A9A120C237C69265BA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7BBBB5851C3E3AE7D11F756 /* Pods-MyResume (iOS).debug.xcconfig */,
+				867FAF20B0FEEEFF7B188DF9 /* Pods-MyResume (iOS).release.xcconfig */,
+				069BFDF1FE4830304C34F0A8 /* Pods-MyResume (macOS).debug.xcconfig */,
+				F2025CC7A13EACBE8238B88B /* Pods-MyResume (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		913754C727F6CCA0009EDDFA = {
 			isa = PBXGroup;
 			children = (
@@ -93,12 +142,15 @@
 				913754E427F6CCA3009EDDFA /* Tests iOS */,
 				913754F027F6CCA3009EDDFA /* Tests macOS */,
 				913754D527F6CCA2009EDDFA /* Products */,
+				6EE8A9A120C237C69265BA28 /* Pods */,
+				4E65AB9BE5D138B6AB4B499C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		913754CC27F6CCA0009EDDFA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3A089C3527F99EF20017D118 /* Model */,
 				913754CD27F6CCA0009EDDFA /* MyResumeApp.swift */,
 				913754CE27F6CCA0009EDDFA /* ContentView.swift */,
 				913754CF27F6CCA2009EDDFA /* Assets.xcassets */,
@@ -150,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 913754FD27F6CCA3009EDDFA /* Build configuration list for PBXNativeTarget "MyResume (iOS)" */;
 			buildPhases = (
+				653123F22331BD509590A29E /* [CP] Check Pods Manifest.lock */,
 				913754D027F6CCA2009EDDFA /* Sources */,
 				913754D127F6CCA2009EDDFA /* Frameworks */,
 				913754D227F6CCA2009EDDFA /* Resources */,
@@ -167,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9137550027F6CCA3009EDDFA /* Build configuration list for PBXNativeTarget "MyResume (macOS)" */;
 			buildPhases = (
+				3944A41FC02791D81A6F4EC2 /* [CP] Check Pods Manifest.lock */,
 				913754D627F6CCA2009EDDFA /* Sources */,
 				913754D727F6CCA2009EDDFA /* Frameworks */,
 				913754D827F6CCA2009EDDFA /* Resources */,
@@ -296,12 +350,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3944A41FC02791D81A6F4EC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyResume (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		653123F22331BD509590A29E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyResume (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		913754D027F6CCA2009EDDFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				913754F727F6CCA3009EDDFA /* ContentView.swift in Sources */,
+				3A089C3727F9A1570017D118 /* ResumeItem.swift in Sources */,
+				3A089C3C27F9A1710017D118 /* MockResume.swift in Sources */,
 				913754F527F6CCA3009EDDFA /* MyResumeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +414,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				913754F827F6CCA3009EDDFA /* ContentView.swift in Sources */,
+				3A089C3827F9A1570017D118 /* ResumeItem.swift in Sources */,
+				3A089C3D27F9A1710017D118 /* MockResume.swift in Sources */,
 				913754F627F6CCA3009EDDFA /* MyResumeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +425,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				913754E827F6CCA3009EDDFA /* Tests_iOSLaunchTests.swift in Sources */,
+				3A089C3927F9A1570017D118 /* ResumeItem.swift in Sources */,
+				3A089C3E27F9A1710017D118 /* MockResume.swift in Sources */,
 				913754E627F6CCA3009EDDFA /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +436,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				913754F427F6CCA3009EDDFA /* Tests_macOSLaunchTests.swift in Sources */,
+				3A089C3A27F9A1570017D118 /* ResumeItem.swift in Sources */,
+				3A089C3F27F9A1710017D118 /* MockResume.swift in Sources */,
 				913754F227F6CCA3009EDDFA /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +509,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -453,6 +564,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -462,13 +575,14 @@
 		};
 		913754FE27F6CCA3009EDDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BBBB5851C3E3AE7D11F756 /* Pods-MyResume (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "MyResume (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52W935AVL3;
+				DEVELOPMENT_TEAM = 649VRP3L89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
@@ -495,13 +609,14 @@
 		};
 		913754FF27F6CCA3009EDDFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867FAF20B0FEEEFF7B188DF9 /* Pods-MyResume (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "MyResume (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52W935AVL3;
+				DEVELOPMENT_TEAM = 649VRP3L89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
@@ -529,6 +644,7 @@
 		};
 		9137550127F6CCA3009EDDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069BFDF1FE4830304C34F0A8 /* Pods-MyResume (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,7 +652,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52W935AVL3;
+				DEVELOPMENT_TEAM = 649VRP3L89;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -545,7 +661,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = CMoney.MyResume;
 				PRODUCT_NAME = MyResume;
@@ -557,6 +673,7 @@
 		};
 		9137550227F6CCA3009EDDFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2025CC7A13EACBE8238B88B /* Pods-MyResume (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,7 +681,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52W935AVL3;
+				DEVELOPMENT_TEAM = 649VRP3L89;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -573,7 +690,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = CMoney.MyResume;
 				PRODUCT_NAME = MyResume;
